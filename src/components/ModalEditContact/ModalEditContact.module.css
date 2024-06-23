@@ -1,0 +1,89 @@
+.editModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 12px;
+  border-radius: 4px;
+  outline: none;
+  background-color: #fff;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.editModal p {
+  font-weight: 500;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.editContactForm {
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  color: black;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.editContactForm label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.contactInput {
+  font-size: 14px;
+  padding: 4px 4px 4px 8px;
+}
+
+.saveBtn,
+.cancelBtn {
+  padding: 6px;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: #3a5545;
+  border: none;
+  width: 50px;
+}
+
+.saveBtn:hover,
+.cancelBtn:hover {
+  background-color: #4f735e;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}

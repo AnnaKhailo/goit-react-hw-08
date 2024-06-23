@@ -1,0 +1,15 @@
+.appBarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 160px;
+  padding: 20px;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  margin-bottom: 24px;
+  max-width: 1158px;
+}
+
+a {
+  color: #3a5545;
+}

@@ -1,0 +1,59 @@
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  width: 183px;
+}
+
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.deleteBtn,
+.editBtn {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  font-size: 12px;
+  width: 30px;
+  height: 30px;
+  background-color: lightgray;
+  outline: none;
+}
+
+.deleteBtn:hover {
+  background-color: #fb3f13;
+}
+
+.editBtn:hover {
+  background-color: #4f735e;
+}
+
+.contactInfo {
+  font-size: 12px;
+}
+
+.contactInfo p {
+  text-align: left;
+}
+
+.icon {
+  color: #3a5545;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+
+.iconDelete {
+  width: 18px;
+  height: 18px;
+}

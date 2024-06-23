@@ -1,0 +1,51 @@
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formLogin label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.formLogin button {
+  width: 80px;
+  height: 36px;
+}
+
+.loginInput {
+  padding-left: 32px;
+  height: 40px;
+  max-width: 280px;
+}
+
+.fieldWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  position: absolute;
+  top: 53%;
+  left: 3%;
+}
+
+.loginBtn {
+  padding: 6px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  position: absolute;
+  left: 3%;
+  top: 98%;
+  color: red;
+  font-size: 10px;
+}

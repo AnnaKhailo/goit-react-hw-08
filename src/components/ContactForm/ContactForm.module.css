@@ -1,0 +1,49 @@
+.contactForm {
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contactForm label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.contactInput {
+  font-size: 14px;
+  padding: 4px 4px 4px 8px;
+}
+
+.addBtn {
+  padding: 6px;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: #3a5545;
+  border: none;
+}
+
+.addBtn:hover {
+  background-color: #4f735e;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+}

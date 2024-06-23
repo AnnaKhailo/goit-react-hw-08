@@ -1,0 +1,15 @@
+.searchBox {
+  margin-bottom: 20px;
+}
+
+.searchBox input {
+  width: 197px;
+  padding: 4px 4px 4px 8px;
+  border: 1.5px solid black;
+  border-radius: 4px;
+}
+
+.searchBoxTitle {
+  margin-bottom: 4px;
+  color: black;
+}
