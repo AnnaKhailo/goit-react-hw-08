@@ -3,10 +3,13 @@
 }
 
 .searchBox input {
+  display: block;
   width: 197px;
   padding: 4px 4px 4px 8px;
   border: 1.5px solid black;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .searchBoxTitle {

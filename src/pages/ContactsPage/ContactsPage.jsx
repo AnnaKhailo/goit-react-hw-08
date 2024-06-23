@@ -18,7 +18,7 @@ export default function ContactsPage() {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className={css.container}>
       <h1 className={css.title}>Phonebook</h1>
       <ContactForm />
       <SearchBox />
